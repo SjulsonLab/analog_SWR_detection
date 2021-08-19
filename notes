@@ -1,0 +1,6 @@
+Change the size of the holes for output measuring on the board to match the ones of potentiometer!
+Use a easier connector to power the board, maybe a DB9.
+
+With a DB9 we will be able to have V +/-, GND and the outputs:
+ HP filter, LFP filter, Amplification, Envelope, LP fixed
+ And the offset input
