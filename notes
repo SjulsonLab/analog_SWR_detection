@@ -1,0 +1,26 @@
+TO DO LIST:
+
+Change on the board
+[] - Implement a DB-9 on the board
+  With a DB9 we will be able to have V +/-, GND and the outputs:
+    HP filter, LFP filter, Amplification, Envelope, LP fixed
+    And the offset input
+
+
+[] - Make a new board that will be soldered (and use the offset) of the Adafruit Trinket M0
+[] - The inputs of those boards don't need to DB, but it will be good to have it set up to install if people want to use
+[] - The potentiometer has to be soldered on to the board
+[] - The outputs for checking the filters can be headers
+[] - We can put a manual switch to select if we want to add offset from trinket
+
+Helpers for beginners
+[] - Make a small tutorial explaining how filters work and what is a cut frequency
+[] - Link a page for calculating filters and components you need if you want to filter different frequencies
+
+
+Points about the Trinket M0
+[] From adafruit website: A lot of people end up using charge-only USB cables and it is very frustrating! So make sure you have a USB cable you know is good for data sync.
+
+For the GUI
+[] Write the file to disk or to RAM?
+[] Put the option of estimation of threshold?

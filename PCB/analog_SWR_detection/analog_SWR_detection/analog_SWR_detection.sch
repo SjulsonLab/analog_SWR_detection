@@ -30,7 +30,7 @@ U 1 1 60AF2865
 P 1100 700
 F 0 "C1" V 1352 700 50  0000 C CNN
 F 1 "1u" V 1261 700 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 1138 550 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 1138 550 50  0001 C CNN
 F 3 "~" H 1100 700 50  0001 C CNN
 	1    1100 700 
 	0    -1   -1   0   
@@ -52,7 +52,7 @@ U 1 1 60AF5E46
 P 850 2000
 F 0 "J2" H 958 2281 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 958 2190 50  0000 C CNN
-F 2 "" H 850 2000 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mega-Fit_76829-0104_2x02_P5.70mm_Vertical" H 850 2000 50  0001 C CNN
 F 3 "~" H 850 2000 50  0001 C CNN
 	1    850  2000
 	1    0    0    -1  
@@ -107,7 +107,7 @@ U 1 1 60AF8646
 P 1550 700
 F 0 "C2" V 1390 700 50  0000 C CNN
 F 1 "1u" V 1299 700 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 1588 550 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 1588 550 50  0001 C CNN
 F 3 "~" H 1550 700 50  0001 C CNN
 	1    1550 700 
 	0    -1   -1   0   
@@ -118,7 +118,7 @@ U 1 1 60AF884E
 P 5450 700
 F 0 "C4" H 5565 746 50  0000 L CNN
 F 1 "0.1u" H 5565 655 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 5488 550 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 5488 550 50  0001 C CNN
 F 3 "~" H 5450 700 50  0001 C CNN
 	1    5450 700 
 	0    -1   -1   0   
@@ -129,7 +129,7 @@ U 1 1 60AF8A36
 P 4650 1150
 F 0 "C3" H 4765 1196 50  0000 L CNN
 F 1 "0.1u" H 4765 1105 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 4688 1000 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 4688 1000 50  0001 C CNN
 F 3 "~" H 4650 1150 50  0001 C CNN
 	1    4650 1150
 	1    0    0    -1  
@@ -282,7 +282,7 @@ U 1 1 60B3A3AA
 P 8350 1100
 F 0 "C5" H 8465 1146 50  0000 L CNN
 F 1 "10u" H 8465 1055 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 8388 950 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 8388 950 50  0001 C CNN
 F 3 "~" H 8350 1100 50  0001 C CNN
 	1    8350 1100
 	1    0    0    -1  
@@ -293,7 +293,7 @@ U 1 1 60B3B813
 P 7550 950
 F 0 "D1" H 7550 1215 50  0000 C CNN
 F 1 "DIODE" H 7550 1124 50  0000 C CNN
-F 2 "" H 7550 950 50  0001 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7550 950 50  0001 C CNN
 F 3 "~" H 7550 950 50  0001 C CNN
 	1    7550 950 
 	1    0    0    -1  
@@ -303,10 +303,10 @@ Amplification filt signal
 Text Notes 7550 1400 0    50   ~ 0
 Envelope\n
 $Comp
-L Device:Opamp_Dual_Generic U3
+L Device:Opamp_Dual_Generic U2
 U 2 1 60B427FA
 P 9900 1050
-F 0 "U3" H 10050 1350 50  0000 C CNN
+F 0 "U2" H 10050 1350 50  0000 C CNN
 F 1 "LM358N" H 10050 1250 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 9900 1050 50  0001 C CNN
 F 3 "~" H 9900 1050 50  0001 C CNN
@@ -319,7 +319,7 @@ U 3 1 60B4333C
 P 1200 2650
 F 0 "U2" H 1158 2696 50  0000 L CNN
 F 1 "LM358N" H 1150 2600 50  0000 L CNN
-F 2 "" H 1200 2650 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 1200 2650 50  0001 C CNN
 F 3 "~" H 1200 2650 50  0001 C CNN
 	3    1200 2650
 	1    0    0    -1  
@@ -436,7 +436,7 @@ U 1 1 60B6F2B5
 P 9700 700
 F 0 "C7" H 9815 746 50  0000 L CNN
 F 1 "1u" H 9815 655 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 9738 550 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 9738 550 50  0001 C CNN
 F 3 "~" H 9700 700 50  0001 C CNN
 	1    9700 700 
 	0    -1   -1   0   
@@ -447,7 +447,7 @@ U 1 1 60B6F88C
 P 9450 1300
 F 0 "C6" H 9250 1350 50  0000 L CNN
 F 1 "1u" H 9250 1250 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 9488 1150 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 9488 1150 50  0001 C CNN
 F 3 "~" H 9450 1300 50  0001 C CNN
 	1    9450 1300
 	1    0    0    -1  
@@ -511,10 +511,10 @@ F 3 "~" H 8350 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Opamp_Dual_Generic U2
+L Device:Opamp_Dual_Generic U3
 U 2 1 60B826ED
 P 9800 2500
-F 0 "U2" H 10000 2700 50  0000 C CNN
+F 0 "U3" H 10000 2700 50  0000 C CNN
 F 1 "LM358N" H 10050 2600 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 9800 2500 50  0001 C CNN
 F 3 "~" H 9800 2500 50  0001 C CNN
@@ -527,7 +527,7 @@ U 3 1 60B83D42
 P 1650 2650
 F 0 "U3" H 1608 2696 50  0000 L CNN
 F 1 "LM358N" H 1608 2605 50  0000 L CNN
-F 2 "" H 1650 2650 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 1650 2650 50  0001 C CNN
 F 3 "~" H 1650 2650 50  0001 C CNN
 	3    1650 2650
 	1    0    0    -1  
@@ -740,8 +740,8 @@ L Connector:Screw_Terminal_01x02 J3
 U 1 1 60C2EBA8
 P 5200 2850
 F 0 "J3" H 5280 2842 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 5280 2751 50  0000 L CNN
-F 2 "" H 5200 2850 50  0001 C CNN
+F 1 "Screw_Terminal_01x02" H 5350 2750 50  0000 L CNN
+F 2 "Connector:dual_screw_terminal" H 5200 2850 50  0001 C CNN
 F 3 "~" H 5200 2850 50  0001 C CNN
 	1    5200 2850
 	0    -1   -1   0   
@@ -752,7 +752,7 @@ U 1 1 60C2F6CC
 P 5400 2850
 F 0 "J4" H 5480 2842 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 5480 2751 50  0000 L CNN
-F 2 "" H 5400 2850 50  0001 C CNN
+F 2 "Connector:dual_screw_terminal" H 5400 2850 50  0001 C CNN
 F 3 "~" H 5400 2850 50  0001 C CNN
 	1    5400 2850
 	0    -1   -1   0   
@@ -763,7 +763,7 @@ U 1 1 60C2FB40
 P 5600 2850
 F 0 "J5" H 5680 2842 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 5680 2751 50  0000 L CNN
-F 2 "" H 5600 2850 50  0001 C CNN
+F 2 "Connector:dual_screw_terminal" H 5600 2850 50  0001 C CNN
 F 3 "~" H 5600 2850 50  0001 C CNN
 	1    5600 2850
 	0    -1   -1   0   
@@ -774,7 +774,7 @@ U 1 1 60C2FE60
 P 5800 2850
 F 0 "J6" H 5880 2842 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 5880 2751 50  0000 L CNN
-F 2 "" H 5800 2850 50  0001 C CNN
+F 2 "Connector:dual_screw_terminal" H 5800 2850 50  0001 C CNN
 F 3 "~" H 5800 2850 50  0001 C CNN
 	1    5800 2850
 	0    -1   -1   0   
@@ -947,4 +947,10 @@ Wire Wire Line
 	8100 1250 8050 1250
 Wire Wire Line
 	8050 1250 8050 1300
+Text Notes 650  600  0    50   ~ 0
+Input\n
+Text Notes 10450 2350 0    50   ~ 0
+Output
+Text Notes 5250 2600 1    50   ~ 0
+Ground
 $EndSCHEMATC
