@@ -4,4 +4,8 @@ This repository contains the schematics and PCB design of a circuit that impleme
 
 The circuit includes the possibility of offsetting the signal to use with the analog-digital converters of microcontrollers and microprocessors (Arduino and Raspberry Pi).
 
-By adapting the components of this circuit you can adapt to detect other events, such as gamma oscillations or spindles.
+By adapting the components of this circuit, you can detect other events, such as gamma oscillations or spindles.
+
+The main content of this repository is found in the folder analaog_SWR_detection.
+
+The file analog_swr_dection.sch contains the circuit schematics, and the file analog_SWR_detection.kicad_pcb can be used to fabricate a printed circuit board.
